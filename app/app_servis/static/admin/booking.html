@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head><base href="http://localhost:8000/admin/">
+	
+	<title>IBooking/Home</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="stil.css" rel = "stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+</head>
+<body class="telo">
+
+	
+	<main class="container p-5 my-5 bg-dark text-white">
+	
+
+		<main class="container-fluid">
+
+			<div class="row">
+				
+				<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+					<ul class="navbar-nav">
+	   			 <li class="nav-item active">
+	    		  <a class="nav-link" href="booking.html">Dashboard</a>
+	    			</li>
+	   				 <li class="nav-item">
+				      <a class="nav-link" href="ponude.html">Ponude</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link" href="rezervacije.html">Rezervacije</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link" href="informacije.html">Informacije</a>
+				    </li>
+				  </ul>
+
+
+				</nav>
+
+
+			</div>	
+
+	 		 <h1 class= "naslov">Dobrodosli na IBooking</h1>  
+	 		  
+			 <button id="logout" class="novaPonuda">Log out</button>
+	 	
+			 <script>
+				// document.getElementById('logout').addEventListener('click', (evt) => {
+
+				// 		document.cookie = `token=;SameSite=Lax`;
+				// 			window.location.href = 'login.html';
+				// });
+				document.getElementById('logout').addEventListener('click', (evt) => {
+					// Brišemo kolačić sa tokenom
+					document.cookie = `token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/admin;`;
+					// Preusmeravamo korisnika na stranicu za prijavu
+					window.location.href = 'login.html';
+				});
+
+			 </script>
+		</main>
+
+	</main>
+
+
+	
+
+</body>
+</html>

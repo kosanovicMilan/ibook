@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head><script>
+	const cookies = document.cookie.split('=');
+const token = cookies[cookies.length - 1];
+
+fetch('http://127.0.0.1:8000/api/messages', {
+        headers: {
+            'Authorization': `Bearer ${token}`
+        }
+})
+fetch('http://127.0.0.1:8000/api/messages', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${token}`
+            },
+            body: JSON.stringify(data)
+      })
+</script>
+    <h1>register</h1>
+</head>
+<body>
+
+
+</body>
+</html>

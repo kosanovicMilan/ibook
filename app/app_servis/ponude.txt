@@ -1,0 +1,12 @@
+{"naziv":"Magdalena","kategorija":"House-sitting","date":"12.08.2023","brDana":"10","brOsoba":"1","cena":"100"}
+{"naziv":"Milan","kategorija":"Hostel","date":"12.12.2012.","brDana":"9","brOsoba":"2","cena":"5"}
+{"naziv":"Mallorca","kategorija":"Motel","date":"31.12.2023","brDana":"3","brOsoba":"2","cena":"650"}
+{"naziv":"Shaffhousen","kategorija":"House-sitting","date":"05.05.2024.","brDana":"54","brOsoba":"1","cena":"10"}{"naziv":"Beograd","kategorija":"Hotel","date":"12.12.2012.","brDana":"2","brOsoba":"2","cena":"100"}
+{"naziv":"milano","kategorija":"Hotel","date":"12.08.2023","brDana":"4","brOsoba":"2","cena":"800"}
+{"naziv":"Beograd","kategorija":"Hostel","date":"12.12.2012.","brDana":"12","brOsoba":"12","cena":"12"}
+{"naziv":"Beograd","kategorija":"Hostel","date":"12.08.2023","brDana":"2","brOsoba":"2","cena":"1"}
+{"naziv":"Beograd","kategorija":"Hostel","date":"12.08.2023","brDana":"2","brOsoba":"2","cena":"1"}
+{"naziv":"Beograd","kategorija":"Hostel","date":"12.08.2023","brDana":"12","brOsoba":"1","cena":"2"}
+{"naziv":"Beograd","kategorija":"Hotel","date":"12.12.2012.","brDana":"12","brOsoba":"12","cena":"1"}
+{"naziv":"Beograd","kategorija":"Hotel","date":"12.12.2012.","brDana":"1","brOsoba":"1","cena":"1"}
+{"naziv":"Beograd","kategorija":"Hostel","date":"12.12.2012.","brDana":"12","brOsoba":"12","cena":"12"}
